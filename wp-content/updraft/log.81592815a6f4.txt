@@ -1,0 +1,548 @@
+0000.001 (0) Opened log file at time: Sat, 22 Mar 2025 21:10:36 +0000 on http://hhenri.local
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.3 WP: 6.7.2 PHP: 8.0.30 (cgi-fcgi, Windows NT LAPTOP-NHVSD0G6 10.0 build 26100 (Windows 10) AMD64) MySQL: 5.7.28 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.6M | 16M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 317534.6 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.006 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.008 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1742664905, seconds_ago=12931)
+0000.011 (0) Set semaphore last lock (fd) time to 2025-03-22 21:10:36
+0000.011 (0) Semaphore lock (fd) complete
+0000.014 (0) Backup run: resumption=0, nonce=81592815a6f4, file_nonce=81592815a6f4 begun at=1742677836 (0s ago), job type=backup
+0000.016 (0) Scheduling a resumption (1) after 300 seconds (1742678136) in case this run gets aborted
+0000.018 (0) Checking if we have a zip executable available
+0000.020 (0) Creation of backups of directories: beginning
+0000.024 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.282 (0) Total entities for the zip file: 2284 directories, 10979 files (0 skipped as non-modified), 184.5 MB
+0002.316 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.324 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 122 (122) files added so far); re-opening (prior size: 0 KB)
+0004.002 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 200 files added (on-disk size: 1215.8 KB)
+0004.027 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 300 files added (on-disk size: 1215.8 KB)
+0004.051 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 400 files added (on-disk size: 1215.8 KB)
+0004.076 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 500 files added (on-disk size: 1215.8 KB)
+0004.100 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 600 files added (on-disk size: 1215.8 KB)
+0004.125 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 700 files added (on-disk size: 1215.8 KB)
+0004.150 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 800 files added (on-disk size: 1215.8 KB)
+0004.175 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 900 files added (on-disk size: 1215.8 KB)
+0004.199 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1000 files added (on-disk size: 1215.8 KB)
+0004.226 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1100 files added (on-disk size: 1215.8 KB)
+0004.234 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.2 MB, 10979 files batched, 1001 (1123) added so far); re-opening (prior size: 1215.8 KB)
+0015.415 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1200 files added (on-disk size: 7900.6 KB)
+0015.443 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1300 files added (on-disk size: 7900.6 KB)
+0015.473 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1400 files added (on-disk size: 7900.6 KB)
+0015.503 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1500 files added (on-disk size: 7900.6 KB)
+0015.532 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1600 files added (on-disk size: 7900.6 KB)
+0015.585 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1700 files added (on-disk size: 7900.6 KB)
+0015.650 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1800 files added (on-disk size: 7900.6 KB)
+0015.710 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 1900 files added (on-disk size: 7900.6 KB)
+0015.760 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2000 files added (on-disk size: 7900.6 KB)
+0015.810 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2100 files added (on-disk size: 7900.6 KB)
+0015.827 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.3 MB, 10979 files batched, 1001 (2124) added so far); re-opening (prior size: 7900.6 KB)
+0030.669 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2200 files added (on-disk size: 12628.4 KB)
+0030.698 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2300 files added (on-disk size: 12628.4 KB)
+0030.728 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2400 files added (on-disk size: 12628.4 KB)
+0030.758 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2500 files added (on-disk size: 12628.4 KB)
+0030.789 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2600 files added (on-disk size: 12628.4 KB)
+0030.818 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2700 files added (on-disk size: 12628.4 KB)
+0030.847 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2800 files added (on-disk size: 12628.4 KB)
+0030.877 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 2900 files added (on-disk size: 12628.4 KB)
+0030.907 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3000 files added (on-disk size: 12628.4 KB)
+0030.936 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3100 files added (on-disk size: 12628.4 KB)
+0030.944 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.4 MB, 10979 files batched, 1001 (3125) added so far); re-opening (prior size: 12628.4 KB)
+0044.106 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3200 files added (on-disk size: 20526.6 KB)
+0044.135 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3300 files added (on-disk size: 20526.6 KB)
+0044.150 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.1 MB, 10979 files batched, 221 (3346) added so far); re-opening (prior size: 20526.6 KB)
+0051.271 (0) A useful amount of data was added after this amount of zip processing: 7.9 s (normalised: 7.6 s, rate: 3367.3 KB/s)
+0051.316 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3400 files added (on-disk size: 26245 KB)
+0051.346 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3500 files added (on-disk size: 26245 KB)
+0051.376 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3600 files added (on-disk size: 26245 KB)
+0051.405 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3700 files added (on-disk size: 26245 KB)
+0051.435 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3800 files added (on-disk size: 26245 KB)
+0051.464 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 3900 files added (on-disk size: 26245 KB)
+0051.492 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4000 files added (on-disk size: 26245 KB)
+0051.521 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4100 files added (on-disk size: 26245 KB)
+0051.549 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4200 files added (on-disk size: 26245 KB)
+0051.577 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4300 files added (on-disk size: 26245 KB)
+0051.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.5 MB, 10979 files batched, 1001 (4347) added so far); re-opening (prior size: 26245 KB)
+0071.908 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4400 files added (on-disk size: 32511 KB)
+0071.938 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4500 files added (on-disk size: 32511 KB)
+0071.967 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4600 files added (on-disk size: 32511 KB)
+0071.995 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4700 files added (on-disk size: 32511 KB)
+0072.023 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4800 files added (on-disk size: 32511 KB)
+0072.052 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 4900 files added (on-disk size: 32511 KB)
+0072.080 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5000 files added (on-disk size: 32511 KB)
+0072.108 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5100 files added (on-disk size: 32511 KB)
+0072.136 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5200 files added (on-disk size: 32511 KB)
+0072.163 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5300 files added (on-disk size: 32511 KB)
+0072.177 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.6 MB, 10979 files batched, 1001 (5348) added so far); re-opening (prior size: 32511 KB)
+0089.395 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5400 files added (on-disk size: 39933.9 KB)
+0089.429 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5500 files added (on-disk size: 39933.9 KB)
+0089.460 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5600 files added (on-disk size: 39933.9 KB)
+0089.492 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5700 files added (on-disk size: 39933.9 KB)
+0089.525 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5800 files added (on-disk size: 39933.9 KB)
+0089.538 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 10979 files batched, 490 (5838) added so far); re-opening (prior size: 39933.9 KB)
+0101.118 (0) A useful amount of data was added after this amount of zip processing: 11.8 s (normalised: 11.7 s, rate: 2190.3 KB/s)
+0101.174 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 5900 files added (on-disk size: 47778.2 KB)
+0101.206 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6000 files added (on-disk size: 47778.2 KB)
+0101.237 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6100 files added (on-disk size: 47778.2 KB)
+0101.268 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6200 files added (on-disk size: 47778.2 KB)
+0101.298 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6300 files added (on-disk size: 47778.2 KB)
+0101.327 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6400 files added (on-disk size: 47778.2 KB)
+0101.357 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6500 files added (on-disk size: 47778.2 KB)
+0101.386 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6600 files added (on-disk size: 47778.2 KB)
+0101.416 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6700 files added (on-disk size: 47778.2 KB)
+0101.446 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6800 files added (on-disk size: 47778.2 KB)
+0101.459 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.2 MB, 10979 files batched, 1001 (6839) added so far); re-opening (prior size: 47778.2 KB)
+0124.439 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 6900 files added (on-disk size: 50084.1 KB)
+0124.468 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7000 files added (on-disk size: 50084.1 KB)
+0124.496 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7100 files added (on-disk size: 50084.1 KB)
+0124.525 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7200 files added (on-disk size: 50084.1 KB)
+0124.553 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7300 files added (on-disk size: 50084.1 KB)
+0124.585 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7400 files added (on-disk size: 50084.1 KB)
+0124.615 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7500 files added (on-disk size: 50084.1 KB)
+0124.643 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7600 files added (on-disk size: 50084.1 KB)
+0124.671 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7700 files added (on-disk size: 50084.1 KB)
+0124.700 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7800 files added (on-disk size: 50084.1 KB)
+0124.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.9 MB, 10979 files batched, 1001 (7840) added so far); re-opening (prior size: 50084.1 KB)
+0144.674 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 7900 files added (on-disk size: 53643.8 KB)
+0144.718 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8000 files added (on-disk size: 53643.8 KB)
+0144.750 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8100 files added (on-disk size: 53643.8 KB)
+0144.781 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8200 files added (on-disk size: 53643.8 KB)
+0144.810 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8300 files added (on-disk size: 53643.8 KB)
+0144.842 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8400 files added (on-disk size: 53643.8 KB)
+0144.874 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8500 files added (on-disk size: 53643.8 KB)
+0144.905 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8600 files added (on-disk size: 53643.8 KB)
+0144.936 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8700 files added (on-disk size: 53643.8 KB)
+0144.967 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8800 files added (on-disk size: 53643.8 KB)
+0144.981 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15 MB, 10979 files batched, 1001 (8841) added so far); re-opening (prior size: 53643.8 KB)
+0168.409 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 8900 files added (on-disk size: 59352.2 KB)
+0168.439 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9000 files added (on-disk size: 59352.2 KB)
+0168.466 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9100 files added (on-disk size: 59352.2 KB)
+0168.496 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9200 files added (on-disk size: 59352.2 KB)
+0168.524 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9300 files added (on-disk size: 59352.2 KB)
+0168.552 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9400 files added (on-disk size: 59352.2 KB)
+0168.580 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9500 files added (on-disk size: 59352.2 KB)
+0168.610 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9600 files added (on-disk size: 59352.2 KB)
+0168.639 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9700 files added (on-disk size: 59352.2 KB)
+0168.669 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9800 files added (on-disk size: 59352.2 KB)
+0168.682 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.3 MB, 10979 files batched, 1001 (9842) added so far); re-opening (prior size: 59352.2 KB)
+0186.526 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 9900 files added (on-disk size: 67573.5 KB)
+0186.554 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10000 files added (on-disk size: 67573.5 KB)
+0186.583 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10100 files added (on-disk size: 67573.5 KB)
+0186.612 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10200 files added (on-disk size: 67573.5 KB)
+0186.645 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10300 files added (on-disk size: 67573.5 KB)
+0186.677 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10400 files added (on-disk size: 67573.5 KB)
+0186.708 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10500 files added (on-disk size: 67573.5 KB)
+0186.740 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10600 files added (on-disk size: 67573.5 KB)
+0186.771 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10700 files added (on-disk size: 67573.5 KB)
+0186.799 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10800 files added (on-disk size: 67573.5 KB)
+0186.813 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 10979 files batched, 1001 (10843) added so far); re-opening (prior size: 67573.5 KB)
+0209.929 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.tmp: 10900 files added (on-disk size: 69491.4 KB)
+0213.172 (0) Creating zip file manifest (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.list-temp.tmp)
+0213.205 (0) Successfully created zip file manifest (size: 955281)
+0213.687 (0) Created plugins zip (0) - 69668.8 KB in 213.7 s (326.1 KB/s) (sha1: e885eed0e2a437c21f22818a08f4fcf46368b1dc, sha256: 548987f6772afead341e92b82c54fc756913eb71e9470cb841ced6065f632232)
+0213.697 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0213.698 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b2d8672810195a20e4de191897e69dcb)
+0213.698 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0213.702 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0215.277 (0) Dropbox: quota usage: used=58.2 MB, total=2048 MB, available=1989.8 MB
+0215.278 (0) Dropbox: Attempt to upload: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip to: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip
+0219.460 (0) Dropbox chunked upload: 1.5 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 1048576, 2048 KB)
+0224.400 (0) Dropbox chunked upload: 4.4 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 3145728, 3584 KB)
+0229.707 (0) Dropbox chunked upload: 9.6 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 6815744, 5632 KB)
+0237.478 (0) Dropbox chunked upload: 17.6 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 12582912, 6144 KB)
+0245.747 (0) Dropbox chunked upload: 26.5 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 18874368, 6656 KB)
+0255.205 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.208 (0) Rescheduling resumption 1: moving to 345 seconds from now (1742678436)
+0255.212 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.213 (0) Dropbox chunked upload: 36 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 25690112, 6144 KB)
+0264.180 (0) Dropbox chunked upload: 44.8 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 31981568, 6144 KB)
+0273.339 (0) Dropbox chunked upload: 53.6 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 38273024, 5632 KB)
+0282.120 (0) Dropbox chunked upload: 61.7 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 44040192, 5632 KB)
+0290.419 (0) Dropbox chunked upload: 69.8 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 49807360, 5632 KB)
+0300.087 (0) Dropbox chunked upload: 77.9 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 55574528, 5120 KB)
+0308.419 (0) Dropbox chunked upload: 85.2 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 60817408, 5120 KB)
+0316.342 (0) The time we have been running (316.3) is approaching the resumption interval (345) - increasing resumption interval to 347
+0316.344 (0) Dropbox chunked upload: 92.6 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 66060288, 5632 KB)
+0324.884 (0) The time we have been running (324.9) is approaching the resumption interval (347) - increasing resumption interval to 355
+0324.886 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII_E3w0fE37qWVS2EEs3Ut09SdzF8Z0gksk1lXiNvu4qiiGg, 71340808, 5632 KB)
+0326.800 (0) Recording as successfully uploaded: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip
+0327.288 (0) Deleting local file: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip: OK
+0327.307 (0) Dropbox: File upload success (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip): 69668 KB in 112s (621 KB/s)
+0327.314 (0) Beginning creation of dump of themes (split every: 400 MB)
+0327.583 (0) Total entities for the zip file: 368 directories, 1172 files (0 skipped as non-modified), 34.2 MB
+0327.628 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0327.657 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0327.688 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0327.720 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0327.748 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0327.777 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0327.806 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0327.837 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0327.843 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 1172 files batched, 819 (819) added so far); re-opening (prior size: 0 KB)
+0343.987 (0) The time we have been running (344) is approaching the resumption interval (355) - increasing resumption interval to 374
+0343.989 (0) A useful amount of data was added after this amount of zip processing: 17.7 s (normalised: 17.6 s, rate: 1455.1 KB/s)
+0343.991 (0) Performance is good - will increase the amount of data we attempt to batch (time=17.665236949921, normalised_time=17.593550399824, max_time=343.98922204971, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0344.023 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 900 files added (on-disk size: 10587.8 KB)
+0344.052 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 1000 files added (on-disk size: 10587.8 KB)
+0344.080 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.tmp: 1100 files added (on-disk size: 10587.8 KB)
+0349.661 (0) The time we have been running (349.7) is approaching the resumption interval (374) - increasing resumption interval to 380
+0349.675 (0) Creating zip file manifest (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.list-temp.tmp)
+0349.680 (0) Successfully created zip file manifest (size: 95205)
+0349.810 (0) Created themes zip (0) - 18956 KB in 22.5 s (842.8 KB/s) (sha1: a829afe8f2ced975c6c09744d7e7962d29673c1e, sha256: 42c779ab59bc1e778e1360643c46ca4d89b28e44c154c424f5cf8b8f4ad3a26d)
+0349.816 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0349.817 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b2d8672810195a20e4de191897e69dcb)
+0349.818 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0349.819 (0) Dropbox: access gained; setting chunk size to: 5632 KB
+0350.879 (0) Dropbox: quota usage: used=126.2 MB, total=2048 MB, available=1921.8 MB
+0350.905 (0) Dropbox: Attempt to upload: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip to: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip
+0359.290 (0) The time we have been running (359.3) is approaching the resumption interval (380) - increasing resumption interval to 390
+0359.292 (0) Dropbox chunked upload: 29.7 % uploaded (pid_upload_session:ABII_GCBDTWMIhZf4FyLqRDl8i1xBq5Ge09jqTbQREvB07Pa-g, 5767168, 5632 KB)
+0367.865 (0) The time we have been running (367.9) is approaching the resumption interval (390) - increasing resumption interval to 398
+0367.868 (0) Dropbox chunked upload: 59.4 % uploaded (pid_upload_session:ABII_GCBDTWMIhZf4FyLqRDl8i1xBq5Ge09jqTbQREvB07Pa-g, 11534336, 5632 KB)
+0375.945 (0) The time we have been running (375.9) is approaching the resumption interval (398) - increasing resumption interval to 406
+0375.948 (0) Dropbox chunked upload: 89.1 % uploaded (pid_upload_session:ABII_GCBDTWMIhZf4FyLqRDl8i1xBq5Ge09jqTbQREvB07Pa-g, 17301504, 6144 KB)
+0380.660 (0) The time we have been running (380.7) is approaching the resumption interval (406) - increasing resumption interval to 411
+0380.662 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII_GCBDTWMIhZf4FyLqRDl8i1xBq5Ge09jqTbQREvB07Pa-g, 19410940, 6144 KB)
+0382.799 (0) Recording as successfully uploaded: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip
+0382.886 (0) Deleting local file: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip: OK
+0382.887 (0) Dropbox: File upload success (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip): 18955 KB in 31s (592 KB/s)
+0382.893 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0382.894 (0) Looking for candidates to backup in: C:\Users\henri\Local Sites\hhenri\app\public/wp-content/uploads
+0382.895 (0) finding files: 2025: adding to list (1)
+0382.896 (0) finding files: ai-builder: adding to list (2)
+0382.896 (0) finding files: ast-block-templates-json: adding to list (3)
+0382.898 (0) finding files: astra-sites: adding to list (4)
+0382.898 (0) finding files: ithemes-security: adding to list (5)
+0382.899 (0) finding files: wpforms: adding to list (6)
+0382.900 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0382.919 (0) Total entities for the zip file: 11 directories, 91 files (0 skipped as non-modified), 4.8 MB
+0383.584 (0) The time we have been running (383.6) is approaching the resumption interval (411) - increasing resumption interval to 414
+0383.591 (0) Creating zip file manifest (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-uploads.zip.list-temp.tmp)
+0383.592 (0) Successfully created zip file manifest (size: 6038)
+0383.603 (0) Created uploads zip (0) - 613.4 KB in 0.7 s (877.1 KB/s) (sha1: eaefd3215f710593b138162320220f209046e191, sha256: 9aa215716a8a78aefedd834a839a8cae18b874bd400fb01b715d54ec7f27c2a2)
+0383.607 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0383.608 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b2d8672810195a20e4de191897e69dcb)
+0383.609 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0383.610 (0) Dropbox: access gained; setting chunk size to: 6144 KB
+0384.799 (0) Dropbox: quota usage: used=144.7 MB, total=2048 MB, available=1903.3 MB
+0384.817 (0) Dropbox: Attempt to upload: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-uploads.zip to: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-uploads.zip
+0387.925 (0) The time we have been running (387.9) is approaching the resumption interval (414) - increasing resumption interval to 418
+0387.927 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII_ODoiEDQcay4IUFmfInsMTVnOzdEPhr8El3U1wlwDPuoaQ, 628153, 6144 KB)
+0389.798 (0) Recording as successfully uploaded: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-uploads.zip
+0389.801 (0) Deleting local file: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-uploads.zip: OK
+0389.802 (0) Dropbox: File upload success (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-uploads.zip): 613 KB in 4s (123 KB/s)
+0389.808 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0389.809 (0) Does not exist: C:\Users\henri\Local Sites\hhenri\app\public/wp-content/mu-plugins
+0389.810 (0) There are no mu-plugins to backup. Will not raise an error.
+0389.811 (0) mu-plugins: create_zip returned an error
+0389.813 (0) Beginning backup of other directories found in the content directory (index: 0)
+0389.813 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0389.814 (0) Looking for candidates to backup in: C:\Users\henri\Local Sites\hhenri\app\public/wp-content
+0389.815 (0) finding files: advanced-cache.php: adding to list (1)
+0389.816 (0) finding files: cache: skipping: excluded by options
+0389.817 (0) finding files: index.php: adding to list (2)
+0389.817 (0) finding files: languages: adding to list (3)
+0389.818 (0) finding files: plugins: skipping: this is the plugins directory
+0389.819 (0) finding files: themes: skipping: this is the themes directory
+0389.820 (0) finding files: updraft: skipping: this is the updraft directory
+0389.820 (0) finding files: upgrade: skipping: excluded by options
+0389.821 (0) finding files: uploads: skipping: this is the uploads directory
+0389.822 (0) finding files: wp-cache-config.php: adding to list (4)
+0389.915 (0) Total entities for the zip file: 3 directories, 602 files (0 skipped as non-modified), 16 MB
+0389.939 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0389.963 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0389.987 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0390.013 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0390.037 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0390.060 (0) Zip: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0395.773 (0) The time we have been running (395.8) is approaching the resumption interval (418) - increasing resumption interval to 426
+0395.785 (0) Creating zip file manifest (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip.list-temp.tmp)
+0395.789 (0) Successfully created zip file manifest (size: 47177)
+0395.828 (0) Created others zip (0) - 4797.5 KB in 6 s (799.1 KB/s) (sha1: 91ce67222cb31435321460c36b1a1a0612efa195, sha256: bb745aeace37ce6da790b714a66932ece78e2d308ee9bb51303ab3bb8b647bef)
+0395.833 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0395.834 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b2d8672810195a20e4de191897e69dcb)
+0395.835 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0395.836 (0) Dropbox: access gained; setting chunk size to: 6144 KB
+0396.882 (0) Dropbox: quota usage: used=145.3 MB, total=2048 MB, available=1902.7 MB
+0396.901 (0) Dropbox: Attempt to upload: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip to: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip
+0405.890 (0) The time we have been running (405.9) is approaching the resumption interval (426) - increasing resumption interval to 436
+0405.892 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII_HGAKs1hY4ZQQyaIdrrei9deQ6f7Czzyr_45BkD0FS5v6A, 4912660, 6144 KB)
+0408.033 (0) Recording as successfully uploaded: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip
+0408.066 (0) Deleting local file: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip: OK
+0408.067 (0) Dropbox: File upload success (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip): 4797 KB in 11s (429 KB/s)
+0408.076 (0) Saving backup status to database (elements: 8)
+0408.079 (0) Beginning creation of database dump (WordPress DB)
+0408.080 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0408.099 (0) Table wp_options: Total expected rows (via COUNT): 374
+0408.100 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.162 (0) Table wp_options: Rows added in this batch (next record: 974): 370 (uncompressed bytes in this segment=3034212) in 0.07 seconds
+0408.170 (0) The time we have been running (408.2) is approaching the resumption interval (436) - increasing resumption interval to 439
+0408.175 (0) Table wp_options: finishing file(s) (2, 480.9 KB)
+0408.179 (0) Table wp_users: Total expected rows (via COUNT): 1
+0408.180 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.182 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1381) in 0.00 seconds
+0408.188 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0408.193 (0) Table wp_usermeta: Total expected rows (via COUNT): 23
+0408.194 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.195 (0) Table wp_usermeta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=3093) in 0.00 seconds
+0408.202 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+0408.207 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 8
+0408.208 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.209 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 71): 8 (uncompressed bytes in this segment=5308) in 0.00 seconds
+0408.216 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.1 KB)
+0408.220 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0408.222 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0408.227 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0408.232 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0408.233 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.235 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.00 seconds
+0408.241 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0408.246 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 18
+0408.247 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.248 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=2314) in 0.00 seconds
+0408.254 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0408.260 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0408.262 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0408.269 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0408.274 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0408.274 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.276 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2138) in 0.00 seconds
+0408.282 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0408.288 (0) Table wp_links: Total expected rows (via COUNT): 0
+0408.290 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0408.295 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0408.301 (0) Table wp_postmeta: Total expected rows (via COUNT): 149
+0408.302 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.305 (0) Table wp_postmeta: Rows added in this batch (next record: 152): 149 (uncompressed bytes in this segment=10412) in 0.01 seconds
+0408.312 (0) Table wp_postmeta: finishing file(s) (2, 2.3 KB)
+0408.319 (0) Table wp_posts: Total expected rows (via COUNT): 64
+0408.320 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.323 (0) Table wp_posts: Rows added in this batch (next record: 64): 64 (uncompressed bytes in this segment=71687) in 0.01 seconds
+0408.330 (0) Table wp_posts: finishing file(s) (2, 8.1 KB)
+0408.335 (0) Table wp_term_relationships: Total expected rows (approximate): 13
+0408.337 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 13 (uncompressed bytes in this segment=858) in 0.00 seconds
+0408.343 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0408.349 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0408.350 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.352 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1176) in 0.00 seconds
+0408.358 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0408.365 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0408.367 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0408.374 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0408.378 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0408.379 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.381 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1004) in 0.00 seconds
+0408.388 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0408.392 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0408.394 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.00 seconds
+0408.400 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0408.405 (0) Table wp_itsec_bans: Total expected rows (via COUNT): 0
+0408.406 (0) Table wp_itsec_bans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.00 seconds
+0408.411 (0) Table wp_itsec_bans: finishing file(s) (2, 0.4 KB)
+0408.416 (0) Table wp_itsec_dashboard_events: Total expected rows (via COUNT): 0
+0408.417 (0) Table wp_itsec_dashboard_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.00 seconds
+0408.423 (0) Table wp_itsec_dashboard_events: finishing file(s) (2, 0.4 KB)
+0408.428 (0) Table wp_itsec_dashboard_lockouts: Total expected rows (via COUNT): 0
+0408.430 (0) Table wp_itsec_dashboard_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.00 seconds
+0408.436 (0) Table wp_itsec_dashboard_lockouts: finishing file(s) (2, 0.4 KB)
+0408.442 (0) Table wp_itsec_distributed_storage: Total expected rows (via COUNT): 0
+0408.443 (0) Table wp_itsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=915) in 0.00 seconds
+0408.451 (0) Table wp_itsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0408.458 (0) Table wp_itsec_fingerprints: Total expected rows (via COUNT): 0
+0408.459 (0) Table wp_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1223) in 0.00 seconds
+0408.466 (0) Table wp_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0408.470 (0) Table wp_itsec_firewall_rules: Total expected rows (via COUNT): 0
+0408.471 (0) Table wp_itsec_firewall_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=990) in 0.00 seconds
+0408.477 (0) Table wp_itsec_firewall_rules: finishing file(s) (2, 0.4 KB)
+0408.482 (0) Table wp_itsec_geolocation_cache: Total expected rows (via COUNT): 0
+0408.483 (0) Table wp_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1001) in 0.00 seconds
+0408.489 (0) Table wp_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0408.494 (0) Table wp_itsec_lockouts: Total expected rows (via COUNT): 0
+0408.495 (0) Table wp_itsec_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1209) in 0.00 seconds
+0408.502 (0) Table wp_itsec_lockouts: finishing file(s) (2, 0.5 KB)
+0408.508 (0) Table wp_itsec_logs: Total expected rows (via COUNT): 12
+0408.508 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.511 (0) Table wp_itsec_logs: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=7651) in 0.00 seconds
+0408.518 (0) Table wp_itsec_logs: finishing file(s) (2, 1.7 KB)
+0408.523 (0) Table wp_itsec_mutexes: Total expected rows (via COUNT): 0
+0408.526 (0) Table wp_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=617) in 0.00 seconds
+0408.532 (0) Table wp_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0408.536 (0) Table wp_itsec_opaque_tokens: Total expected rows (approximate): 1
+0408.537 (0) Table wp_itsec_opaque_tokens: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=1343) in 0.00 seconds
+0408.543 (0) Table wp_itsec_opaque_tokens: finishing file(s) (2, 0.7 KB)
+0408.548 (0) Table wp_itsec_temp: Total expected rows (via COUNT): 0
+0408.550 (0) Table wp_itsec_temp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=903) in 0.00 seconds
+0408.556 (0) Table wp_itsec_temp: finishing file(s) (2, 0.4 KB)
+0408.561 (0) Table wp_itsec_user_groups: Total expected rows (approximate): 0
+0408.562 (0) Table wp_itsec_user_groups: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=838) in 0.00 seconds
+0408.568 (0) Table wp_itsec_user_groups: finishing file(s) (2, 0.4 KB)
+0408.572 (0) Table wp_itsec_vulnerabilities: Total expected rows (approximate): 0
+0408.573 (0) Table wp_itsec_vulnerabilities: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1042) in 0.00 seconds
+0408.579 (0) Table wp_itsec_vulnerabilities: finishing file(s) (2, 0.4 KB)
+0408.584 (0) Table wp_smush_dir_images: Total expected rows (via COUNT): 0
+0408.586 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1098) in 0.00 seconds
+0408.591 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0408.598 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0408.599 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=752) in 0.00 seconds
+0408.607 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0408.614 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0408.616 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0408.624 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0408.629 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0408.631 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1970) in 0.00 seconds
+0408.637 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0408.643 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 2
+0408.644 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.646 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=807) in 0.00 seconds
+0408.653 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.4 KB)
+0408.658 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 0
+0408.660 (0) Table wp_yoast_indexable: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3860) in 0.00 seconds
+0408.668 (0) Table wp_yoast_indexable: finishing file(s) (2, 1 KB)
+0408.672 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0408.673 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=750) in 0.00 seconds
+0408.679 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0408.684 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0408.685 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0408.688 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1265) in 0.00 seconds
+0408.694 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0408.699 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0408.701 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0408.707 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0408.712 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 0
+0408.713 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=981) in 0.00 seconds
+0408.719 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0408.720 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\henri\Local Sites\hhenri\app\public/wp-content/updraft/backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz (line 1923, C:\Users\henri\Local Sites\hhenri\app\public\wp-content\plugins\updraftplus\backup.php)
+0408.722 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_options.table.tmpr975.gz (1/41/fopen): adding to final database dump
+0408.731 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_options.table.gz (2/41/fopen): adding to final database dump
+0408.732 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_users.table.tmpr2.gz (3/41/fopen): adding to final database dump
+0408.734 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_users.table.gz (4/41/fopen): adding to final database dump
+0408.735 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_usermeta.table.tmpr24.gz (5/41/fopen): adding to final database dump
+0408.736 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_usermeta.table.gz (6/41/fopen): adding to final database dump
+0408.736 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_actionscheduler_actions.table.tmpr72.gz (7/41/fopen): adding to final database dump
+0408.737 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_actionscheduler_actions.table.gz (8/41/fopen): adding to final database dump
+0408.738 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/41/fopen): adding to final database dump
+0408.739 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_actionscheduler_claims.table.gz (10/41/fopen): adding to final database dump
+0408.740 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/41/fopen): adding to final database dump
+0408.741 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_actionscheduler_groups.table.gz (12/41/fopen): adding to final database dump
+0408.742 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_actionscheduler_logs.table.tmpr19.gz (13/41/fopen): adding to final database dump
+0408.742 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_actionscheduler_logs.table.gz (14/41/fopen): adding to final database dump
+0408.743 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_commentmeta.table.tmpr0.gz (15/41/fopen): adding to final database dump
+0408.744 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_commentmeta.table.gz (16/41/fopen): adding to final database dump
+0408.746 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_comments.table.tmpr2.gz (17/41/fopen): adding to final database dump
+0408.747 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_comments.table.gz (18/41/fopen): adding to final database dump
+0408.747 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_links.table.tmpr0.gz (19/41/fopen): adding to final database dump
+0408.748 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_links.table.gz (20/41/fopen): adding to final database dump
+0408.749 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_postmeta.table.tmpr153.gz (21/41/fopen): adding to final database dump
+0408.750 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_postmeta.table.gz (22/41/fopen): adding to final database dump
+0408.752 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_posts.table.tmpr65.gz (23/41/fopen): adding to final database dump
+0408.753 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_posts.table.gz (24/41/fopen): adding to final database dump
+0408.753 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_term_relationships.table.tmpr100001.gz (25/41/fopen): adding to final database dump
+0408.754 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_term_relationships.table.gz (26/41/fopen): adding to final database dump
+0408.755 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_term_taxonomy.table.tmpr8.gz (27/41/fopen): adding to final database dump
+0408.756 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_term_taxonomy.table.gz (28/41/fopen): adding to final database dump
+0408.757 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_termmeta.table.tmpr0.gz (29/41/fopen): adding to final database dump
+0408.757 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_termmeta.table.gz (30/41/fopen): adding to final database dump
+0408.758 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_terms.table.tmpr8.gz (31/41/fopen): adding to final database dump
+0408.759 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_terms.table.gz (32/41/fopen): adding to final database dump
+0408.760 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_e_events.table.tmpr0.gz (33/41/fopen): adding to final database dump
+0408.761 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_e_events.table.gz (34/41/fopen): adding to final database dump
+0408.761 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_bans.table.tmpr0.gz (35/41/fopen): adding to final database dump
+0408.762 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_bans.table.gz (36/41/fopen): adding to final database dump
+0408.763 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_dashboard_events.table.tmpr0.gz (37/41/fopen): adding to final database dump
+0408.764 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_dashboard_events.table.gz (38/41/fopen): adding to final database dump
+0408.765 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_dashboard_lockouts.table.tmpr0.gz (39/41/fopen): adding to final database dump
+0408.765 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_dashboard_lockouts.table.gz (40/41/fopen): adding to final database dump
+0408.766 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_distributed_storage.table.tmpr0.gz (41/41/fopen): adding to final database dump
+0408.767 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_distributed_storage.table.gz (42/41/fopen): adding to final database dump
+0408.768 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_fingerprints.table.tmpr0.gz (43/41/fopen): adding to final database dump
+0408.769 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_fingerprints.table.gz (44/41/fopen): adding to final database dump
+0408.770 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_firewall_rules.table.tmpr0.gz (45/41/fopen): adding to final database dump
+0408.770 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_firewall_rules.table.gz (46/41/fopen): adding to final database dump
+0408.771 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_geolocation_cache.table.tmpr0.gz (47/41/fopen): adding to final database dump
+0408.772 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_geolocation_cache.table.gz (48/41/fopen): adding to final database dump
+0408.773 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_lockouts.table.tmpr0.gz (49/41/fopen): adding to final database dump
+0408.774 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_lockouts.table.gz (50/41/fopen): adding to final database dump
+0408.774 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_logs.table.tmpr13.gz (51/41/fopen): adding to final database dump
+0408.775 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_logs.table.gz (52/41/fopen): adding to final database dump
+0408.776 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_mutexes.table.tmpr0.gz (53/41/fopen): adding to final database dump
+0408.777 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_mutexes.table.gz (54/41/fopen): adding to final database dump
+0408.778 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_opaque_tokens.table.tmpr1001.gz (55/41/fopen): adding to final database dump
+0408.778 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_opaque_tokens.table.gz (56/41/fopen): adding to final database dump
+0408.780 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_temp.table.tmpr0.gz (57/41/fopen): adding to final database dump
+0408.781 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_temp.table.gz (58/41/fopen): adding to final database dump
+0408.781 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_user_groups.table.tmpr1.gz (59/41/fopen): adding to final database dump
+0408.782 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_user_groups.table.gz (60/41/fopen): adding to final database dump
+0408.783 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_vulnerabilities.table.tmpr1.gz (61/41/fopen): adding to final database dump
+0408.784 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_itsec_vulnerabilities.table.gz (62/41/fopen): adding to final database dump
+0408.785 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_smush_dir_images.table.tmpr0.gz (63/41/fopen): adding to final database dump
+0408.789 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_smush_dir_images.table.gz (64/41/fopen): adding to final database dump
+0408.790 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_wpforms_logs.table.tmpr0.gz (65/41/fopen): adding to final database dump
+0408.791 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_wpforms_logs.table.gz (66/41/fopen): adding to final database dump
+0408.792 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (67/41/fopen): adding to final database dump
+0408.793 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_wpforms_payment_meta.table.gz (68/41/fopen): adding to final database dump
+0408.793 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_wpforms_payments.table.tmpr0.gz (69/41/fopen): adding to final database dump
+0408.794 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_wpforms_payments.table.gz (70/41/fopen): adding to final database dump
+0408.795 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_wpforms_tasks_meta.table.tmpr3.gz (71/41/fopen): adding to final database dump
+0408.796 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_wpforms_tasks_meta.table.gz (72/41/fopen): adding to final database dump
+0408.797 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_indexable.table.tmpr0.gz (73/41/fopen): adding to final database dump
+0408.798 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_indexable.table.gz (74/41/fopen): adding to final database dump
+0408.799 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_indexable_hierarchy.table.tmpr1.gz (75/41/fopen): adding to final database dump
+0408.801 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_indexable_hierarchy.table.gz (76/41/fopen): adding to final database dump
+0408.801 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_migrations.table.tmpr25.gz (77/41/fopen): adding to final database dump
+0408.802 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_migrations.table.gz (78/41/fopen): adding to final database dump
+0408.803 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_primary_term.table.tmpr0.gz (79/41/fopen): adding to final database dump
+0408.804 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_primary_term.table.gz (80/41/fopen): adding to final database dump
+0408.805 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_seo_links.table.tmpr0.gz (81/41/fopen): adding to final database dump
+0408.806 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db-table-wp_yoast_seo_links.table.gz (82/41/fopen): adding to final database dump
+0408.812 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz: finished writing out complete database file (512.1 KB)
+0408.830 (0) Total database tables backed up: 41 (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz, size: 524519, sha1: 1c8332f65487119aa8dc3eb37c87f058d8ba1ad5, sha256: 2ca91d22c73782f1f97a5a595987be269786c42aaeb059b55f53779fe05ac6e2)
+0408.835 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip: plugins: This file has already been successfully uploaded
+0408.836 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip: themes: This file has already been successfully uploaded
+0408.836 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-uploads.zip: uploads: This file has already been successfully uploaded
+0408.837 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip: others: This file has already been successfully uploaded
+0408.838 (0) backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0408.838 (0) Saving backup history. Total backup size: 92.3 MB
+0408.841 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0408.843 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0408.844 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b2d8672810195a20e4de191897e69dcb)
+0408.845 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0408.847 (0) Dropbox: access gained; setting chunk size to: 6144 KB
+0409.930 (0) Dropbox: quota usage: used=150 MB, total=2048 MB, available=1898 MB
+0409.950 (0) Dropbox: Attempt to upload: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz to: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz
+0412.901 (0) The time we have been running (412.9) is approaching the resumption interval (439) - increasing resumption interval to 443
+0412.903 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII_MZ14KnfsR_fF8XJeZwNAZGAbumD05uxCNE1VLUHumzQVw, 524519, 6144 KB)
+0415.432 (0) Recording as successfully uploaded: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz
+0415.452 (0) Deleting local file: backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz: OK
+0415.453 (0) Dropbox: File upload success (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-db.gz): 512 KB in 5s (93 KB/s)
+0415.458 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0415.459 (0) Number of backup sets in history: 3; groups (db): 1
+0415.460 (0) Examining (for databases) backup set with group_id=0, nonce=81592815a6f4, datestamp=1742677836 (Mar 22 2025 21:10:36)
+0415.461 (0) This backup set is the backup set just made, so will not be deleted.
+0415.461 (0) Examining (for databases) backup set with group_id=0, nonce=15e2320c110a, datestamp=1742664905 (Mar 22 2025 17:35:05)
+0415.461 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0415.461 (0) Examining (for databases) backup set with group_id=0, nonce=30c0b6f8e73a, datestamp=1742662587 (Mar 22 2025 16:56:27)
+0415.461 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0415.461 (0) Number of backup sets in history: 3; groups (files): 1
+0415.462 (0) Examining (for files) backup set with nonce=81592815a6f4, datestamp=1742677836 (Mar 22 2025 21:10:36)
+0415.462 (0) This backup set is the backup set just made, so will not be deleted.
+0415.463 (0) This backup set is the backup set just made, so will not be deleted.
+0415.463 (0) This backup set is the backup set just made, so will not be deleted.
+0415.463 (0) This backup set is the backup set just made, so will not be deleted.
+0415.463 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0415.464 (0) Examining (for files) backup set with nonce=15e2320c110a, datestamp=1742664905 (Mar 22 2025 17:35:05)
+0415.464 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0415.464 (0) Examining (for files) backup set with nonce=30c0b6f8e73a, datestamp=1742662587 (Mar 22 2025 16:56:27)
+0415.464 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0415.464 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0415.467 (0) Resume backup (81592815a6f4, 0): finish run
+0415.469 (0) Decremented the semaphore (fd) by 1
+0415.470 (0) Semaphore (fd) unlocked
+0415.471 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0415.474 (0) The backup succeeded and is now complete
+0415.475 (0) Deleting zip manifest (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-plugins.zip.list.tmp)
+0415.477 (0) Deleting zip manifest (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-themes.zip.list.tmp)
+0415.478 (0) Deleting zip manifest (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-uploads.zip.list.tmp)
+0415.479 (0) Deleting zip manifest (backup_2025-03-23-0110_Henri_HALIDI_81592815a6f4-others.zip.list.tmp)
+0415.480 (0) Fetching RSS news feed
+0418.612 (0) Fetched RSS news feed; result is a: SimplePie\SimplePie
+0418.627 (0) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: halid...
+0418.633 (0) La sauvegarde a réussi et est maintenant terminée
