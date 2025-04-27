@@ -1,0 +1,138 @@
+0000.006 () Opened log file at time: Wed, 16 Apr 2025 05:01:23 +0000 on https://hhenri.local
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.3 WP: 6.8 PHP: 8.0.30 (cgi-fcgi, Windows NT LAPTOP-NHVSD0G6 10.0 build 26100 (Windows 10) AMD64) MySQL: 5.7.28 (max packet size=33554432) WPLANG: fr_FR Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14M | 16M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 310522.9 MB
+0000.174 () Restore setup, now closing connection and starting restore over AJAX.
+0000.004 () Opened log file at time: Wed, 16 Apr 2025 05:01:27 +0000 on https://hhenri.local
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.3 WP: 6.8 PHP: 8.0.30 (cgi-fcgi, Windows NT LAPTOP-NHVSD0G6 10.0 build 26100 (Windows 10) AMD64) MySQL: 5.7.28 (max packet size=33554432) WPLANG: fr_FR Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.7M | 16M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 310522 MB
+0000.010 () Ensuring WP_Filesystem is setup for a restore
+0000.014 () WP_Filesystem is setup and ready for a restore
+0002.058 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_e_events","wp_simply_static_pages","wp_smush_dir_images","wp_wpforms_logs","wp_wpforms_payment_meta","wp_wpforms_payments","wp_wpforms_tasks_meta","wp_wpmailsmtp_debug_events","wp_wpmailsmtp_tasks_meta","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0002.065 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\Users\henri\Local Sites\hhenri\app\public\wp-admin\includes\class-wp-filesystem-direct.php)
+0002.089 () Entity: db
+0002.089 () restore_backup(backup_file=backup_2025-04-13-0519_Henri_HALIDI_a0e3f2dccc33-db.gz, type=db, info=a:0:{}, last_one=1)
+0002.089 () Décompression de la sauvegarde… (backup_2025-04-13-0519_Henri_HALIDI_a0e3f2dccc33-db.gz, 1.1 Mb)
+0002.090 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\Users\henri\Local Sites\hhenri\app\public\wp-admin\includes\class-wp-filesystem-direct.php)
+0002.097 () Database successfully unpacked
+0002.100 () Restauration de la base de données (cela peut prendre du temps si votre site est volumineux - en cas de dépassement de délai (ce qui arrive si votre hébergeur limite vos ressources), vous devrez utiliser une autre méthode comme phpMyAdmin)…
+0002.121 () Using direct MySQL access; value of use_mysqli is: 1
+0002.123 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0002.248 () Max packet size: 32 MB
+0002.248 () Entering maintenance mode
+0002.248 () Activation du mode maintenance&#8230;
+0002.278 () Backup of: https://hhenri.local
+0002.280 () Content URL: https://hhenri.local/wp-content
+0002.281 () Uploads URL: https://hhenri.local/wp-content/uploads
+0002.281 () Old table prefix: wp_
+0002.281 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0002.282 () Site information: multisite=0
+0002.282 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0002.284 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0002.285 () New table prefix: fa_
+0002.290 () Processing table (InnoDB): wp_options - will restore as: fa_options
+0002.514 () Atomic restore: dropping original table (wp_options)
+0002.527 () Atomic restore: renaming new table (fa_options) to final table name (wp_options)
+0002.540 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0002.567 () Processing table (InnoDB): wp_users - will restore as: fa_users
+0002.635 () Atomic restore: dropping original table (wp_users)
+0002.649 () Atomic restore: renaming new table (fa_users) to final table name (wp_users)
+0002.662 () Processing table (InnoDB): wp_usermeta - will restore as: fa_usermeta
+0002.717 () Atomic restore: dropping original table (wp_usermeta)
+0002.729 () Atomic restore: renaming new table (fa_usermeta) to final table name (wp_usermeta)
+0002.740 () Processing table (InnoDB): wp_commentmeta - will restore as: fa_commentmeta
+0002.794 () Atomic restore: dropping original table (wp_commentmeta)
+0002.806 () Atomic restore: renaming new table (fa_commentmeta) to final table name (wp_commentmeta)
+0002.822 () Processing table (InnoDB): wp_comments - will restore as: fa_comments
+0002.884 () Atomic restore: dropping original table (wp_comments)
+0002.900 () Atomic restore: renaming new table (fa_comments) to final table name (wp_comments)
+0002.913 () Processing table (InnoDB): wp_links - will restore as: fa_links
+0002.958 () Atomic restore: dropping original table (wp_links)
+0002.991 () Atomic restore: renaming new table (fa_links) to final table name (wp_links)
+0003.007 () Processing table (InnoDB): wp_postmeta - will restore as: fa_postmeta
+0004.052 () Database queries processed: 50 in 1.93 seconds
+0004.483 () Atomic restore: dropping original table (wp_postmeta)
+0004.506 () Atomic restore: renaming new table (fa_postmeta) to final table name (wp_postmeta)
+0004.521 () Processing table (InnoDB): wp_posts - will restore as: fa_posts
+0005.201 () Atomic restore: dropping original table (wp_posts)
+0005.231 () Atomic restore: renaming new table (fa_posts) to final table name (wp_posts)
+0005.248 () Processing table (InnoDB): wp_term_relationships - will restore as: fa_term_relationships
+0005.300 () Atomic restore: dropping original table (wp_term_relationships)
+0005.324 () Atomic restore: renaming new table (fa_term_relationships) to final table name (wp_term_relationships)
+0005.339 () Processing table (InnoDB): wp_term_taxonomy - will restore as: fa_term_taxonomy
+0005.395 () Atomic restore: dropping original table (wp_term_taxonomy)
+0005.410 () Atomic restore: renaming new table (fa_term_taxonomy) to final table name (wp_term_taxonomy)
+0005.423 () Processing table (InnoDB): wp_termmeta - will restore as: fa_termmeta
+0005.473 () Atomic restore: dropping original table (wp_termmeta)
+0005.501 () Atomic restore: renaming new table (fa_termmeta) to final table name (wp_termmeta)
+0005.517 () Processing table (InnoDB): wp_terms - will restore as: fa_terms
+0005.570 () Atomic restore: dropping original table (wp_terms)
+0005.586 () Atomic restore: renaming new table (fa_terms) to final table name (wp_terms)
+0005.600 () Processing table (InnoDB): wp_actionscheduler_actions - will restore as: fa_actionscheduler_actions
+0005.673 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0005.703 () Atomic restore: renaming new table (fa_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0005.716 () Processing table (InnoDB): wp_actionscheduler_claims - will restore as: fa_actionscheduler_claims
+0005.760 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0005.797 () Atomic restore: renaming new table (fa_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0005.814 () Processing table (InnoDB): wp_actionscheduler_groups - will restore as: fa_actionscheduler_groups
+0005.866 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0005.899 () Database queries processed: 100 in 3.77 seconds
+0005.899 () Atomic restore: renaming new table (fa_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0005.913 () Processing table (InnoDB): wp_actionscheduler_logs - will restore as: fa_actionscheduler_logs
+0005.973 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0006.003 () Atomic restore: renaming new table (fa_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0006.015 () Processing table (InnoDB): wp_e_events - will restore as: fa_e_events
+0006.059 () Atomic restore: dropping original table (wp_e_events)
+0006.086 () Atomic restore: renaming new table (fa_e_events) to final table name (wp_e_events)
+0006.102 () Processing table (InnoDB): wp_simply_static_pages - will restore as: fa_simply_static_pages
+0007.045 () Atomic restore: dropping original table (wp_simply_static_pages)
+0007.083 () Atomic restore: renaming new table (fa_simply_static_pages) to final table name (wp_simply_static_pages)
+0007.095 () Processing table (InnoDB): wp_smush_dir_images - will restore as: fa_smush_dir_images
+0007.143 () Atomic restore: dropping original table (wp_smush_dir_images)
+0007.173 () Atomic restore: renaming new table (fa_smush_dir_images) to final table name (wp_smush_dir_images)
+0007.196 () Processing table (InnoDB): wp_wpforms_logs - will restore as: fa_wpforms_logs
+0007.240 () Atomic restore: dropping original table (wp_wpforms_logs)
+0007.267 () Atomic restore: renaming new table (fa_wpforms_logs) to final table name (wp_wpforms_logs)
+0007.283 () Processing table (InnoDB): wp_wpforms_payment_meta - will restore as: fa_wpforms_payment_meta
+0007.325 () Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0007.353 () Atomic restore: renaming new table (fa_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0007.368 () Processing table (InnoDB): wp_wpforms_payments - will restore as: fa_wpforms_payments
+0007.419 () Atomic restore: dropping original table (wp_wpforms_payments)
+0007.464 () Atomic restore: renaming new table (fa_wpforms_payments) to final table name (wp_wpforms_payments)
+0007.480 () Processing table (InnoDB): wp_wpforms_tasks_meta - will restore as: fa_wpforms_tasks_meta
+0007.532 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0007.556 () Atomic restore: renaming new table (fa_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0007.569 () Processing table (InnoDB): wp_wpmailsmtp_debug_events - will restore as: fa_wpmailsmtp_debug_events
+0007.613 () Atomic restore: dropping original table (wp_wpmailsmtp_debug_events)
+0007.642 () Atomic restore: renaming new table (fa_wpmailsmtp_debug_events) to final table name (wp_wpmailsmtp_debug_events)
+0007.658 () Processing table (InnoDB): wp_wpmailsmtp_tasks_meta - will restore as: fa_wpmailsmtp_tasks_meta
+0007.701 () Atomic restore: dropping original table (wp_wpmailsmtp_tasks_meta)
+0007.744 () Atomic restore: renaming new table (fa_wpmailsmtp_tasks_meta) to final table name (wp_wpmailsmtp_tasks_meta)
+0007.758 () Processing table (InnoDB): wp_yoast_indexable - will restore as: fa_yoast_indexable
+0007.815 () Atomic restore: dropping original table (wp_yoast_indexable)
+0007.833 () Atomic restore: renaming new table (fa_yoast_indexable) to final table name (wp_yoast_indexable)
+0007.850 () Processing table (InnoDB): wp_yoast_indexable_hierarchy - will restore as: fa_yoast_indexable_hierarchy
+0007.900 () Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0007.929 () Atomic restore: renaming new table (fa_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0007.944 () Processing table (InnoDB): wp_yoast_migrations - will restore as: fa_yoast_migrations
+0007.999 () Atomic restore: dropping original table (wp_yoast_migrations)
+0008.011 () Atomic restore: renaming new table (fa_yoast_migrations) to final table name (wp_yoast_migrations)
+0008.022 () Processing table (InnoDB): wp_yoast_primary_term - will restore as: fa_yoast_primary_term
+0008.067 () Atomic restore: dropping original table (wp_yoast_primary_term)
+0008.079 () Atomic restore: renaming new table (fa_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0008.093 () Processing table (InnoDB): wp_yoast_seo_links - will restore as: fa_yoast_seo_links
+0008.136 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0008.143 () UpdraftVault: this site has not been connected - check your settings
+0008.714 () Successfully updated and refreshed the access token
+0009.696 () Unlocking database and leaving maintenance mode
+0009.697 () Désactivation du mode maintenance&#8230;
+0009.698 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0009.713 () Atomic restore: renaming new table (fa_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0009.731 () Finished: lines processed: 147 in 7.61 seconds
+0009.733 () Nettoyage…
+0009.734 () Begin search and replace (updraftplus_restored_db)
+0009.734 () [Database-replace-site-url] Base de données : recherche et remplacement de l’URL du site
+0009.734 () This option was not selected.
+0009.921 () Elementor's clear cache method exists and will be executed
+0010.379 () Purging cache directory: C:\Users\henri\Local Sites\hhenri\app\public/wp-content/cache
+0010.436 () Restore successful!
+0010.437 () Restore successful
