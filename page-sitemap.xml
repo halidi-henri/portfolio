@@ -2,70 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://hhenri.fr/</loc>
-		<lastmod>2025-04-11T13:16:45+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://hhenri.fr/profil/</loc>
-		<lastmod>2025-04-20T15:36:09+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://hhenri.fr/bts-sio/</loc>
-		<lastmod>2025-04-20T19:17:25+00:00</lastmod>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Infra-1024x871.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Dev-1-1024x574.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://hhenri.fr/realisations-en-milieu-professionnel/</loc>
-		<lastmod>2025-04-20T19:21:38+00:00</lastmod>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Cyclea.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/IMG_9271.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-03-10-212439.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Snapchat-1344327222-1024x576.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/DJI_0018-scaled-1-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://hhenri.fr/contact/</loc>
-		<lastmod>2025-04-20T19:27:43+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://hhenri.fr/gestion-du-patrimoine/</loc>
-		<lastmod>2025-04-23T13:12:49+00:00</lastmod>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/image-1024x572.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://hhenri.fr/veille-technologique/</loc>
-		<lastmod>2025-04-23T13:27:09+00:00</lastmod>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-03-29-103622-1024x524.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-03-28-155350-1-1024x514.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-01-09-154827.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/26a6a8fc-6143-4799-a264-c32465450aa9.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-03-29-122507.png</image:loc>
-		</image:image>
+		<lastmod>2025-04-27T18:51:03+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hhenri.fr/veille-juridique/</loc>
@@ -87,8 +24,30 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://hhenri.fr/veille-technologique/</loc>
+		<lastmod>2025-04-26T13:32:36+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-03-29-103622-1024x524.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-03-28-155350-1-1024x514.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/04/Capture-decran-2025-04-26-170144.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/26a6a8fc-6143-4799-a264-c32465450aa9.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-01-09-154827.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-03-29-122507.png</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://hhenri.fr/realisations-en-cours-de-formation/</loc>
-		<lastmod>2025-04-25T20:22:23+00:00</lastmod>
+		<lastmod>2025-04-27T16:02:40+00:00</lastmod>
 		<image:image>
 			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/ad.png</image:loc>
 		</image:image>
@@ -107,6 +66,50 @@
 		<image:image>
 			<image:loc>https://hhenri.fr/wp-content/uploads/2025/04/Capture-decran-2025-04-25-083646.png</image:loc>
 		</image:image>
+	</url>
+	<url>
+		<loc>https://hhenri.fr/realisations-en-milieu-professionnel/</loc>
+		<lastmod>2025-04-27T16:03:18+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Cyclea.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/IMG_9271.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Capture-decran-2025-03-10-212439.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Snapchat-1344327222-1024x576.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/DJI_0018-scaled-1-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hhenri.fr/gestion-du-patrimoine/</loc>
+		<lastmod>2025-04-27T16:03:56+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/image-1024x572.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hhenri.fr/bts-sio/</loc>
+		<lastmod>2025-04-28T06:20:09+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Infra-1024x871.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://hhenri.fr/wp-content/uploads/2025/03/Dev-1-1024x574.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hhenri.fr/profil/</loc>
+		<lastmod>2025-04-28T06:22:51+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://hhenri.fr/contact/</loc>
+		<lastmod>2025-04-28T06:27:16+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
