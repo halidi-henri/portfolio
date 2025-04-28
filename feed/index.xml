@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>Henri HALIDI</title>
+	<title>Accueil - Henri HALIDI</title>
 	<atom:link href="https://hhenri.fr/feed/" rel="self" type="application/rss+xml" />
 	<link>https://hhenri.fr/</link>
 	<description></description>
-	<lastBuildDate>Sun, 27 Apr 2025 18:51:03 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 28 Apr 2025 06:27:16 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>https://hhenri.fr/wp-content/uploads/2025/03/cropped-cropped-Logo-site-32x32.png</url>
-	<title>Henri HALIDI</title>
+	<title>Accueil - Henri HALIDI</title>
 	<link>https://hhenri.fr/</link>
 	<width>32</width>
 	<height>32</height>
